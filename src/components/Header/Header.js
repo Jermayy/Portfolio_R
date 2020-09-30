@@ -1,14 +1,20 @@
 import React from 'react';
-import "./style.css";
+import Headshot from '../../utils/img/jeremy_headshot.jpg';
+import "../Header/style.css";
 
 export const Header = () =>{
 
     return(
 <div className="jumbotron jumbotron-fluid">
-  <div className="container">
-    <h1 className="display-4">Fluid jumbotron</h1>
-    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div>
+  
+    <div className="container" id='headerContainer'>
+        <img className='headerElements' alt='headshot' src={Headshot}/>
+         <div className='headerElements'> 
+            <h1 className="text "id='name'>Jeremy Carlos</h1>
+            <p className="text " id='title'>Full Stack Developer</p>  
+         </div>
+         <button type="button" class="btn btn-primary btn-lg headerElements" id='contactBtn'>Contact Me</button>
+    </div>
 </div>
 
     )
