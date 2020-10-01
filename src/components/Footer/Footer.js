@@ -6,10 +6,10 @@ export const Footer = () =>{
 
     return(
 <div className="footer">
- <div > 
-  <CircleLink className='links'></CircleLink>
-  <CircleLink className='links'></CircleLink>
-  <CircleLink className='links'></CircleLink>
+ <div className='linkGroup'> 
+  <CircleLink className='link'></CircleLink>
+  <CircleLink className='link'></CircleLink>
+  <CircleLink className='link'></CircleLink>
   </div>
 </div>
 

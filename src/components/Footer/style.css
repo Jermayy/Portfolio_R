@@ -3,7 +3,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background-color: lightblue;
     color: white;
     text-align: center;
@@ -11,13 +11,13 @@
 }
 
 .linkGroup{
-  
-  
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh; 
+    /* need a better way to vertically centre */
 }
 
 .link{
-   
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    
 }
