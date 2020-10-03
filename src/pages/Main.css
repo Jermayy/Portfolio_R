@@ -1,0 +1,5 @@
+
+.page{
+    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.40), rgba(30, 96, 210, 0.4)), url(../utils/img/city.gif);
+    background-size: 100%;
+}

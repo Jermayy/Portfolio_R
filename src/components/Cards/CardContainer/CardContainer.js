@@ -6,7 +6,7 @@ import { TrackerCard } from '../TrackerCard/TrackerCard';
 
 export const CardContainer =()=> {
     return(
-        <div>   
+        <div className='body'>   
         <span className='info row'>
        <AboutCard></AboutCard>
         <SkillCard></SkillCard>
