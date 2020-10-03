@@ -1,8 +1,8 @@
 import React from 'react';
 
-import "../Card/style.css";
+import "./style.css";
 
-export const Card = ({text}) =>{
+export const TrackerCard = ({text}) =>{
 
     return(
 
