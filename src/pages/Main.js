@@ -8,8 +8,10 @@ import './Main.css';
 export const Main = () =>{
     return(
      <container className='page'>
+<div id='Body'>
   <Header></Header>
   <CardContainer></CardContainer>
+  </div>
  <Footer></Footer>
     </container>
     )

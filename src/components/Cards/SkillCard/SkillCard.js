@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './SkillCard.css'
 
 
 export const SkillCard = ({text}) =>{
@@ -7,7 +7,7 @@ export const SkillCard = ({text}) =>{
     return(
 
 
-<div className="card col-md-4">
+<div className="card col-sm-3" id='skillCard'>
   <div className="card-body">
   <h1>Skills</h1>
   <br/>

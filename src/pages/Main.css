@@ -1,5 +1,7 @@
 
-.page{
-    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.40), rgba(30, 96, 210, 0.4)), url(../utils/img/city.gif);
-    background-size: 100%;
+#Body{
+    margin-bottom: 100px;
+   clear: both;
+   background: rgb(13,96,205);
+background: linear-gradient(176deg, rgba(13,96,205,1) 0%, rgba(0,212,255,1) 100%);
 }
