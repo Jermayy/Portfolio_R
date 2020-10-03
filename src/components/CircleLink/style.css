@@ -1,7 +1,20 @@
 .circleLink{
-    width: 50px;
-    height: 50px;
+    width: 10vh;
+    height: 10vh;
     background-color: grey;
-    border-radius: 30px;
+    border-radius: 30vh;
     flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+
+.linkedin{
+    max-width: 5vh;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    
+    
 }

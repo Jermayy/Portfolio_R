@@ -1,15 +1,14 @@
 import React from 'react';
-import { CircleLink } from '../CircleLink/CircleLink';
+import { CircleLink, LinkedinLink } from '../CircleLink/LinkedinLink';
 import "../Footer/style.css";
-
+import Linkedinlogo from '../../utils/img/linkedinlogo.png';
 export const Footer = () =>{
 
     return(
 <div className="footer">
  <div className='linkGroup'> 
-  <CircleLink className='link'></CircleLink>
-  <CircleLink className='link'></CircleLink>
-  <CircleLink className='link'></CircleLink>
+  <LinkedinLink ></LinkedinLink>
+  
   </div>
 </div>
 
