@@ -1,14 +1,16 @@
 .circleLink{
     width: 10vh;
     height: 10vh;
-    background-color: grey;
-    border-radius: 30vh;
+    background: rgb(13,96,205);
+    background: linear-gradient(90deg, rgba(13,96,205,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 5vh;
     flex-wrap: wrap;
     position: relative;
     text-align: center;
+
 }
 
-.linkedin{
+.img{
     max-width: 5vh;
     height: auto;
     position: absolute;

@@ -1,13 +1,18 @@
 import React from 'react';
-import { CircleLink, LinkedinLink } from '../CircleLink/LinkedinLink';
+import {LinkedinLink } from '../CircleLink/LinkedinLink';
+import { GithubLink } from '../CircleLink/GithubLink';
+import { PortfolioLink } from '../CircleLink/PortfolioLink';
 import "../Footer/style.css";
-import Linkedinlogo from '../../utils/img/linkedinlogo.png';
+
+
 export const Footer = () =>{
 
     return(
 <div className="footer">
  <div className='linkGroup'> 
-  <LinkedinLink ></LinkedinLink>
+  <LinkedinLink></LinkedinLink>
+  <GithubLink></GithubLink>
+  <PortfolioLink></PortfolioLink>
   
   </div>
 </div>
