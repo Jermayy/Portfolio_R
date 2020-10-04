@@ -1,0 +1,16 @@
+#portfolioCard{
+    border-radius: 2rem;
+    
+}
+
+#cardBody{
+    align-content: center;
+
+}
+
+#thumbnail {
+    margin: 1vw;
+    max-Width: 10vw;
+    height: auto;
+      
+} 

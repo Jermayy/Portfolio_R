@@ -13,7 +13,7 @@ export const Header = () =>{
             <h1 className="text "id='name'>Jeremy Carlos</h1>
             <p className="text " id='title'>Full Stack Developer</p>  
          </div>
-         <button type="button" className="btn btn-primary btn-lg headerElements" id='contactBtn'>Contact Me</button>
+         <button type="button" className="btn btn-primary navbar-btn headerElements" id='contactBtn'>Contact Me</button>
     </div>
 </div>
 

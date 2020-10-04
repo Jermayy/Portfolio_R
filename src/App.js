@@ -1,13 +1,15 @@
 import React from 'react';
 
 import './App.css';
-import { Main } from './pages/Main';
+// import { Main } from './pages/Main';
+import { Portfolio } from './pages/Portfolio';
 
 
 function App() {
   return (
     <div className="App">
-   <Main></Main>
+   <Portfolio></Portfolio>
+   {/* <Main></Main> */}
     </div>
   );
 }
