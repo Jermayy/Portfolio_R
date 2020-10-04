@@ -3,8 +3,10 @@
     padding: 0;
     margin: 0,auto;
     border-radius: 1vh;
+    list-style-type: none;
 }
 
 #aboutBody{
     text-align: left;
+    
 }

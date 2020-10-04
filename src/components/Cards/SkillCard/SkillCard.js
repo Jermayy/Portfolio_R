@@ -11,7 +11,7 @@ export const SkillCard = ({text}) =>{
   <div className="card-body">
   <h1>Skills</h1>
   <br/>
-    <ul>
+    <ul id='list'>
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript (Nodejs, Express, jQuery) </li>

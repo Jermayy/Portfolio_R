@@ -5,3 +5,7 @@
     border-radius: 1vh;
     text-align: left;
 }
+
+#list{
+    list-style-type: none;
+}
