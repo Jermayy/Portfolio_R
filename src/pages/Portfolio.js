@@ -1,24 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { Footer } from '../components/Footer/Footer';
 import { AltHeader } from '../components/Header/AltHeader';
 import { PortfolioCard } from '../components/PortfolioCard/PortfolioCard';
-
+import { Wrapper } from '../components/Wrapper/Wrapper';
+import portfolioList from '../portfolio.json'
 import './Portfolio.css';
 
-export const Portfolio = () =>{
+export class Portfolio extends Component{
 
+
+state = {
+    portfolioList
+}
+render(){
     return(
-        <div>
+       <div>
         <AltHeader></AltHeader>
-        <container classname='content'>
-        <PortfolioCard></PortfolioCard>
-        <PortfolioCard></PortfolioCard>
-        <PortfolioCard></PortfolioCard>
-        <PortfolioCard></PortfolioCard>
-        <PortfolioCard></PortfolioCard>
-        </container>
+    <Wrapper>
+        {this.state.portfolioList.map (portfolio =>(
+            <PortfolioCard
+            id = {portfolio.id}
+            image = {portfolio.image}
+            name = {portfolio.name}
+            appLink = {portfolio.appLink}
+            githubLink = {portfolio.githubLink}
+            description = {portfolio.description}
+            />  
+        ))}
+    </Wrapper>
+
+
+
         <Footer></Footer>
-        </div>
-    )
+    </div>
+        )
+    }
 }
