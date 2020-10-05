@@ -1,16 +1,26 @@
 #portfolioCard{
     border-radius: 2rem;
-    
+   
 }
 
-#cardBody{
-    align-content: center;
-
+.align{
+    margin-left: 0;   
+    display: inline-flex;
+    content: "";
+    max-Width: 100%;
+    height: auto;
+        
 }
 
 #thumbnail {
     margin: 1vw;
     max-Width: 10vw;
-    height: auto;
-      
-} 
+    border-radius:.5rem;
+}           
+
+#portLink{
+  list-style-type: none;
+  display: inline;
+  justify-content: center; 
+  
+}
