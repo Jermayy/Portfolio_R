@@ -19,7 +19,7 @@ render(){
         <AltHeader></AltHeader>
     <Wrapper>
         {this.state.portfolioList.map (portfolio =>(
-            <PortfolioCard
+            <PortfolioCard 
             id = {portfolio.id}
             image = {portfolio.image}
             name = {portfolio.name}
