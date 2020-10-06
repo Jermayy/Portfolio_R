@@ -1,6 +1,7 @@
 #portfolioCard{
     border-radius: 2rem;
-   
+    border-style: double, black;
+    margin: 5vh;
 }
 
 .align{
@@ -14,13 +15,19 @@
 
 #thumbnail {
     margin: 1vw;
-    max-Width: 10vw;
+    max-Width: 15vw;
+    height: auto;
     border-radius:.5rem;
 }           
 
 #portLink{
   list-style-type: none;
   display: inline;
-  justify-content: center; 
   
+  
+}
+a:link, a:visited {
+    font-family: 'Secular One', Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5rem;
 }
