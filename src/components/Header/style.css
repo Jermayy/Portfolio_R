@@ -15,11 +15,10 @@ html{
     #headerContainer{  
      margin-left: 0;   
      display: inline-flex;
-     content: "";
      max-Width: 100%;
      height: auto;
-     
      justify-content: center;
+     align-items: center;
     }
     
     img {
@@ -63,3 +62,38 @@ html{
     
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  #headerContainer{
+    margin-left: 0;   
+    display: flex;
+    max-Width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .headerElements{
+    display: inline-block;
+    margin: 0;
+
+  }
+
+  #headshot{
+      margin: 3vh;
+      min-width: 15vh;
+      min-height: 15vh;
+      border-radius: 10vh;
+  }
+
+  #name{
+   font-size: 7vw;
+  
+    }
+    #title{
+    font-size: 3.5vw;
+  
+    }
+}

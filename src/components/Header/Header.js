@@ -8,7 +8,7 @@ export const Header = () =>{
 <div className="jumbotron jumbotron-fluid">
   
     <div className="container" id='headerContainer'>
-        <img className='headerElements' alt='headshot' src={Headshot}/>
+        <img className='headerElements' alt='headshot' src={Headshot} id='headshot'/>
          <div className='headerElements'> 
             <h1 className="text "id='name'>Jeremy Carlos</h1>
             <p className="text " id='title'>Full Stack Developer</p>  

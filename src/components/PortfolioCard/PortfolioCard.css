@@ -1,10 +1,14 @@
 #portfolioCard{
-    border-radius: 2rem;
+    border-radius: 3rem;
     border-style: double, black;
     margin: 5vh;
+    border-style: solid ;
+    border: solid;
+    border-width: 1vh;
+    align-items: center;
 }
 
-.align{
+.row{
     margin-left: 0;   
     display: inline-flex;
     content: "";
@@ -15,10 +19,15 @@
 
 #thumbnail {
     margin: 1vw;
-    max-Width: 15vw;
+    max-Width: 20vw;
     height: auto;
     border-radius:.5rem;
+ 
 }           
+
+#appName{
+    font-size: 2.5rem;
+}
 
 #portLink{
   list-style-type: none;
@@ -31,3 +40,17 @@ a:link, a:visited {
     color: black;
     font-size: 1.5rem;
 }
+
+li, p{
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #thumbnail {
+        margin: 6vh;
+        min-Width: 85vw;
+        min-height: 40vh;
+        border-radius:.5rem;
+     
+    }      
+  }

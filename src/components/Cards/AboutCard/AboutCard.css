@@ -23,3 +23,26 @@ p {
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #aboutCard{
+        background-color: white;
+        padding: 0;
+        margin: 5vw;
+        margin-left: 10vw;
+            border-radius: 1.5vh;
+        list-style-type: none;
+        border-style: solid ;
+        border: solid;
+        border-width: 1vh;
+             
+    }
+    
+    #aboutBody{
+        text-align: center;
+        
+    }
+  }

@@ -12,8 +12,7 @@ export const ContactCard = () =>{
 
     <h2> Contact Me</h2>
       <ul id='list'>
-        <li> Email: jeremyVDLRC@gmail.com</li>
-        <li>Github: Jermayy</li>
+        <li>jeremyVDLRC@gmail.com</li>
       </ul>
   </div>
 </div>
