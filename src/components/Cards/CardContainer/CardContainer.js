@@ -1,7 +1,7 @@
 import React from 'react';
 import { AboutCard } from '../AboutCard/AboutCard';
 import { SkillCard } from '../SkillCard/SkillCard';
-
+import {ContactCard} from '../ContactCard/ContactCard'
 import './CardContainer.css';
 
 export const CardContainer =()=> {
@@ -11,7 +11,7 @@ export const CardContainer =()=> {
        <AboutCard></AboutCard>
         <SkillCard></SkillCard>
         </span>
-       
+       <ContactCard></ContactCard>
         </div>
     )
 }

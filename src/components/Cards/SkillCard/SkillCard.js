@@ -2,7 +2,7 @@ import React from 'react';
 import './SkillCard.css'
 
 
-export const SkillCard = ({text}) =>{
+export const SkillCard = () =>{
 
     return(
 
