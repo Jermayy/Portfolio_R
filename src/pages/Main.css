@@ -1,7 +1,10 @@
 
 #Body{
-    margin-bottom: 100px;
-   clear: both;
+    margin-bottom: 16vh;
    background: rgb(13,96,205);
-background: linear-gradient(176deg, rgba(13,96,205,1) 0%, rgba(0,212,255,1) 100%);
+   background: linear-gradient(176deg, rgba(13,96,205,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#page{
+    background: linear-gradient(176deg, rgba(13,96,205,1) 0%, rgba(0,212,255,1) 100%);
 }
