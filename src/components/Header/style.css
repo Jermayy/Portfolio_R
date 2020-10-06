@@ -19,6 +19,7 @@ html{
      max-Width: 100%;
      height: auto;
      
+     justify-content: center;
     }
     
     img {
@@ -50,5 +51,15 @@ html{
        
     }
 
+    #nameLink{
+        font-family: 'Secular One', Arial, Helvetica, sans-serif;
+        color: seashell;
+    }
 
+.text{
+    font-family: 'Secular One', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    
+}
 
