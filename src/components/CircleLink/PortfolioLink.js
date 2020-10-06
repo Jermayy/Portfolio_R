@@ -6,7 +6,7 @@ export const PortfolioLink = () =>{
  
     return(
 <div className="circleLink">
-<img className='img' src={Briefcase} alt='Link Logo'></img>
+<a href='/portfolio'><img className='img' src={Briefcase} alt='Link Logo'></img></a>
 </div>
 
     )
