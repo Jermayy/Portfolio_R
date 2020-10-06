@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer/Footer';
 import { AltHeader } from '../components/Header/AltHeader';
 import { PortfolioCard } from '../components/PortfolioCard/PortfolioCard';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import portfolioList from '../portfolio.json'
+import portfolioList from '../portfolioList'
 import './Portfolio.css';
 
 export class Portfolio extends Component{
