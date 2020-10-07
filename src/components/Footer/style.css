@@ -15,9 +15,4 @@
     display: flex;
     justify-content: space-around;
     margin-top: 2vh; 
-    /* need a better way to vertically centre */
-}
-
-.link{
-    
-}
+  }
