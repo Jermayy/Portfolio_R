@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
 import { Main } from './pages/Main';
 import { Portfolio } from './pages/Portfolio';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Route, Switch, HashRouter } from "react-router-dom";
 
-function App() {
+class App extends Component {
+  render(){
   return (
-  <Router>
+  <HashRouter basename='/'>
   <div className="App">
   <Switch>
       <Route exact path="/">
@@ -20,8 +21,8 @@ function App() {
    </Switch> 
         </div>
 
-        </Router>
+        </HashRouter>
   );
-}
+}}
 
 export default App;
