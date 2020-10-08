@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-
+import {Link} from 'react-router-dom'
 export const AltHeader = () =>{
 
 return(
@@ -8,7 +8,7 @@ return(
 <nav className="navbar navbar-inverse">
   <div className="container-fluid">
     <div className="navbar-header">
-      <a className="navbar-brand" href="/" id='nameLink'>Jeremy Carlos</a>
+      <Link className="navbar-brand" to="/" id='nameLink'>Jeremy Carlos</Link>
     </div>
     
     

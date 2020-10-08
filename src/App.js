@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './App.css';
 import { Main } from './pages/Main';
 import { Portfolio } from './pages/Portfolio';
-import { BrowserRouter as Route, Switch, HashRouter } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
-class App extends Component {
-  render(){
+function App() {
   return (
-  <HashRouter basename='/'>
+  <Router >
   <div className="App">
-  <Switch>
+    <Switch>
       <Route exact path="/">
         <Main></Main>
       </Route>
@@ -18,11 +17,13 @@ class App extends Component {
         <Portfolio></Portfolio>
       </Route>
 
-   </Switch> 
-        </div>
+    <Route>Page did not load correctly</Route>
 
-        </HashRouter>
+    </Switch> 
+  </div>
+
+  </Router>
   );
-}}
+}
 
 export default App;
