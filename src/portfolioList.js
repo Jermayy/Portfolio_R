@@ -4,9 +4,18 @@ import fitnessTracker from './utils/img/fitnessTracker.png';
 import budgetTracker from './utils/img/budgetTracker.png';
 import burger from './utils/img/burger.png';
 import MyMVP from './utils/img/MyMVP.png';
+import ezQuit from './utils/img/ezQuit.png';
 export default [
     {
     "id": 1,
+    "image": ezQuit,
+    "name": "ezQuit",
+    "appLink": "https://enigmatic-depths-23820.herokuapp.com/",
+    "githubLink": "https://github.com/Jermayy/EZ-Quit_",
+    "description": "MERN stack mobile-first web application to help user's track their cigarette smoking frequency and help them on their journey to quitting for good."
+},
+    {
+    "id": 2,
     "image": gamejam,
     "name": "Game Jam",
     "appLink": "https://fullstackproject-2.herokuapp.com/",
@@ -14,21 +23,14 @@ export default [
     "description": "A mySQL based application that allows the user to search for their favourite games based on name search, with the ability to further filter results with video game platform and genre of game. Based on the provided search parameters, users will be returned a list of games that satisfy the user's nominated parameters. Each game returned has the game's title, platform the game is on, release year, genre of game, plublisher, total global unit sales and rating/score as per IGN.com"
 },
     {
-    "id": 2,
+    "id": 3,
     "image": employeeDirectory,
     "name": "Employee Directory (React-Based Search Engine Application)",
     "appLink": "https://jermayy.github.io/EmployeeDirectory/",
     "githubLink": "https://github.com/Jermayy/EmployeeDirectory",
     "description": "A Reactjs application that allows the user to easily view a list of their employees of their business. Users are able to sort by categories by pressing each of the table headings both in ascending and descending order. Additionally, users can filter out their employees by searching in the search field - this will automatically update the list as the user types for instant feedback."
 },
-    {
-    "id": 3,
-    "image": fitnessTracker,
-    "name": "Fitness Tracker",
-    "appLink": "https://stormy-hamlet-48502.herokuapp.com/",
-    "githubLink": "https://github.com/Jermayy/FitnessTracker",
-    "description": "A NOSQL Node based application that allows the user to add exercises and keep track of their overall workout. Users will be able to view their progress throughout the week and see what types of exercises they have previously performed."
-},
+   
     {
     "id": 4,
     "image": budgetTracker,
