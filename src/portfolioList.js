@@ -1,6 +1,5 @@
 import gamejam from './utils/img/gamejam.png';
 import employeeDirectory from './utils/img/employeeDirectory.png';
-import fitnessTracker from './utils/img/fitnessTracker.png';
 import budgetTracker from './utils/img/budgetTracker.png';
 import burger from './utils/img/burger.png';
 import MyMVP from './utils/img/MyMVP.png';
@@ -9,7 +8,7 @@ export default [
     {
     "id": 1,
     "image": ezQuit,
-    "name": "ezQuit",
+    "name": "EZ-Quit",
     "appLink": "https://enigmatic-depths-23820.herokuapp.com/",
     "githubLink": "https://github.com/Jermayy/EZ-Quit_",
     "description": "MERN stack mobile-first web application to help user's track their cigarette smoking frequency and help them on their journey to quitting for good."
