@@ -10,8 +10,7 @@ export const AboutCard = () =>{
   <div className="card-body" id='aboutBody'>
 <h2>About Me</h2>
   <p>A Full Stack Developer with a passion for continuous learning!</p>
-  <p>With a broad knowledge across MERN stack application development I am able to build dynamic and immersive experiences for users</p>
-  <p>Looking for Front End and Full Stack developer opportunities!</p>
+  <p>A team oriented individual, with a passion for continuous learning and acts with initiative. Driven to create innovative,effective and creative solutions for stakeholders, business partners and clients.</p>
   </div>
 </div>
 
